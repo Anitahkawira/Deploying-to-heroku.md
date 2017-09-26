@@ -25,7 +25,7 @@ SECRET_KEY = 'byql7!&fgndij2-%q2fid=db@6%)j%x_k#xar9rr6n8n4+&)jz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://evening-eyrie-40006.herokuapp.com']
+ALLOWED_HOSTS = ['evening-eyrie-40006.herokuapp.com']
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 
