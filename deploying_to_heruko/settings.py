@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'firstapp',
+    'rest_framework',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -56,7 +58,7 @@ ROOT_URLCONF = 'deploying_to_heruko.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates/index.html'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
